@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login form</title>
+    <link rel="stylesheet" href="assets/css/log-in.css">
+    <script src="https://kit.fontawesome.com/9973449bcd.js" crossorigin="anonymous"></script>
+    <style>
+        .main {
+            background-image: url(assets/img/login_bg.jpg);
+            background-size: cover;/* Stretch the background image vertically */
+            background-position:center; /* Center the background image horizontally */
+            width: 100%; /* Set the container width to 100% of the viewport */
+            position: absolute; /* Position the container absolutely to fill the whole page */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        
+        /* Styles for small screens (mobile) */
+        @media only screen and (max-width: 767px) {
+         .sidebar {
+             display: none;
+         }
+
+        .main-content {
+             margin-left: 0;
+         }
+        }
+
+        /* Styles for medium and large screens (tablet and desktop) */
+        @media only screen and (min-width: 768px) {
+        .sidebar {
+             margin-right: 30px;
+        }
+
+         .main-content {
+        margin-left: 250px;
+         }
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class>
+            <section class="wrapper" style="background:linear-gradient(to right, #b87bed, #efc7f4)">
+                <div class="heading">
+                    <img src="assets/img/iTeamLogoText5.png" style="width: 100px" class="img-fluid" alt="iteam logo"/>
+                    <h1 class="text text-large">Sign In</h1>
+                    <p class="text text-normal">New User? 
+                        <span></span><a href="" class="text text-links">Create an account</a></p>
+                </div>
+                <form action="" name="signin" class="form">
+                    <div class="input-control">
+                        <label for="email" class="input-label" hidden>Email Address</label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Email Address">
+                    </div>
+                    <div class="input-control">
+                        <label for="password" class="input-label" hidden>Password</label>
+                        <input type="password" name="password" id="password" class="input-field" placeholder="Password">
+                    </div>
+                    <div class="input-control">
+                        <a href="#" class="text text-links">Forgot Password</a>
+                        <input type="submit" name="submit" id="submit" class="input-submit" value="Sign in" disabled>
+                    </div>
+                </form>
+                <div class="striped">
+                    <span class="striped-line"></span>
+                    <span class="striped-text">Or</span>
+                    <span class="striped-line"></span>
+                </div>
+                <div class="method">
+                    <div class="method-control">
+                        <a href="#" class="method-action">
+                            <i class="fa-brands fa-google"></i>
+                            <span>Sign in wtih Google</span>
+                        </a>
+                    </div>
+                    <div class="method-control">
+                        <a href="#" class="method-action">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Sign in wtih Facebook</span>
+                        </a>
+                    </div>
+                    <div class="method-control">
+                        <a href="#" class="method-action">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Sign in wtih Apple</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

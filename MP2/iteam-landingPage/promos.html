@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promos Page</title>
+    <link rel="stylesheet" href="inner.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+            <!-- bootstrap -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- end of bootstrap -->
+            <!-- font awesome -->
+            <script src="https://kit.fontawesome.com/9973449bcd.js" crossorigin="anonymous"></script>
+    <style>
+            /* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .sidebar {
+     display: none;
+  }
+
+  .main-content {
+     margin-left: 0;
+  }
+}
+
+/* Styles for medium and large screens (tablet and desktop) */
+@media only screen and (min-width: 768px) {
+  .sidebar {
+     margin-right: 30px;
+  }
+
+  .main-content {
+     margin-left: 250px;
+  }
+}
+body {
+  padding-top: 100px; /* change the value to match the height of your navigation bar */
+}
+    </style>
+</head>
+<body>
+    <section class="header header-fixed-xl pb-30 mb-30">
+                    <div class="header-main"  id="try">
+                        <div class="container">
+                            <div class="row">
+                                <nav class="navbar navbar-expand-lg navbar-light w-100" id="header-navbar">
+                                    <a class="navbar-brand font-weight-bold" href="index.html">
+                                        <img src="assets/img/iTeamLogoText5.png" alt="" style="width: 100px;">
+                                        </a> 
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#about">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#services">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#team">Team</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#partner">Promos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#testimonials">Testimonials</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#contacts">Contacts</a>
+                                            </li>
+                                        </ul>
+                                        <div class="navbar-spacer"></div>
+                                        <a class="btn btn-outline-primary text-nowrap" href="#contacts" data-toggle="smooth-scroll" target="_blank">Free Demo</a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" style="background:linear-gradient(to right, #b87bed, #ebb9f0); background-size: cover;">
+                    <div class="section-content">
+                     <div class="col-12">
+                        <img src="assets/img/promo_poster.png" alt="Promo of the month poster" classs="img-fluid" width="100%"> 
+                     </div>
+                    </div>
+                </section>
+</body>
+</html>

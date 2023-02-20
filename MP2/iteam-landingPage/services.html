@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+    <link rel="stylesheet" href="inner.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+            <!-- bootstrap -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- end of bootstrap -->
+            <!-- font awesome -->
+            <script src="https://kit.fontawesome.com/9973449bcd.js" crossorigin="anonymous"></script>
+    <style>
+            /* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .sidebar {
+     display: none;
+  }
+
+  .main-content {
+     margin-left: 0;
+  }
+}
+
+/* Styles for medium and large screens (tablet and desktop) */
+@media only screen and (min-width: 768px) {
+  .sidebar {
+     margin-right: 30px;
+  }
+
+  .main-content {
+     margin-left: 250px;
+  }
+}
+body {
+  padding-top: 100px; /* change the value to match the height of your navigation bar */
+}
+    </style>
+</head>
+<body>
+    <section class="header header-fixed-xl pb-30 mb-30">
+                    <div class="header-main"  id="try">
+                        <div class="container">
+                            <div class="row">
+                                <nav class="navbar navbar-expand-lg navbar-light w-100" id="header-navbar">
+                                    <a class="navbar-brand font-weight-bold" href="index.html">
+                                        <img src="assets/img/iTeamLogoText5.png" alt="" style="width: 100px;">
+                                        </a> 
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#about">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#services">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#team">Team</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#partner">Promos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#testimonials">Testimonials</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#contacts">Contacts</a>
+                                            </li>
+                                        </ul>
+                                        <div class="navbar-spacer"></div>
+                                        <a class="btn btn-outline-primary text-nowrap" href="#contacts" data-toggle="smooth-scroll" target="_blank">Free Demo</a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container my-5  ">
+                      <h1 class="text-center mt-50 pt-50 mb-4"> POS Solutions for Freight,<br> Moving and Storage industry</h1>
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto">
+                        <div class="col">
+                          <div class="card h-100" style="background-image: url('assets/img/gradient5_bg.jpg')"; >
+                            <img src="assets/img/freight_img.png"  class="card-img-top img-fluid mx-auto d-block"  id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Freight POS</h5>
+                              <p class="card-text">Intelligent POS designed for efficiently managing the end-to-end activities of Freight Forwarding companies.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100" style="background-image: url('assets/img/gradient5_bg.jpg')";>
+                            <img src="assets/img/moving_img.png" class="card-img-top img-fluid mx-auto d-block" id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Moving POS</h5>
+                              <p class="card-text">Intelligent POS designed for efficiently managing the end-to-end activities of Moving companies.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100" style="background-image: url('assets/img/gradient5_bg.jpg')";>
+                            <img src="assets/img/warehouse_img.png" class="card-img-top img-fluid mx-auto d-block" id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Warehouse POS</h5>
+                              <p class="card-text">Intelligent POS designed for efficiently managing the end-to-end activities of Storage companies.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100" style="background-image: url('assets/img/gradient5_bg.jpg')";>
+                            <img src="assets/img/customer_img.png" class="card-img-top img-fluid mx-auto d-block" id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">CUSTOMER SERVICE PORTAL</h5>
+                              <p class="card-text">Logistics companies customers can interact 24/7 from company website. Customer service portal is integrated with Enterprise Suite and website.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100" style="background-image: url('assets/img/gradient5_bg.jpg')";>
+                            <img src="assets/img/logistic_inventory.png" class="card-img-top img-fluid mx-auto d-block" id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">LOGISTIC INVENTORY</h5>
+                              <p class="card-text">Logistics Inventory App is designed for managing all the onsite activities in the Freight Forwarding, Moving & Storage business accurately, systematically and paperless.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100"style="background-image: url('assets/img/gradient5_bg.jpg')";>
+                            <img src="assets/img/pre_moving_img.png" class="card-img-top img-fluid mx-auto d-block" width="100" height="50"id="serviceCard" alt="Placeholder image">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Pre Move Survey POS</h5>
+                              <p class="card-text">Mobile platform for capturing all the onsite activities in real time and make the complete logistics activities paper less.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="inner.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+            <!-- bootstrap -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- end of bootstrap -->
+            <!-- font awesome -->
+            <script src="https://kit.fontawesome.com/9973449bcd.js" crossorigin="anonymous"></script>
+    <style>
+            /* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .sidebar {
+     display: none;
+  }
+
+  .main-content {
+     margin-left: 0;
+  }
+}
+
+/* Styles for medium and large screens (tablet and desktop) */
+@media only screen and (min-width: 768px) {
+  .sidebar {
+     margin-right: 30px;
+  }
+
+  .main-content {
+     margin-left: 250px;
+  }
+}
+body {
+  padding-top: 100px; /* change the value to match the height of your navigation bar */
+}
+    </style>
+</head>
+<body>
+    <section class="header header-fixed-xl pb-30 mb-30">
+                 <section class="header header-fixed-xl">
+                    <div class="header-main"  id="try">
+                        <div class="container">
+                            <div class="row">
+                                <nav class="navbar navbar-expand-lg navbar-light w-100" id="header-navbar">
+                                    <a class="navbar-brand font-weight-bold" href="index.html">
+                                        <img src="assets/img/iTeamLogoText5.png" alt="" style="width: 100px;">
+                                        </a> 
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#about">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#services">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#team">Team</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#partner">Promos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#testimonials">Testimonials</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" data-toggle="smooth-scroll" href="#contacts">Contacts</a>
+                                            </li>
+                                        </ul>
+                                        <div class="navbar-spacer"></div>
+                                        <a class="btn btn-outline-primary text-nowrap" href="#contacts" data-toggle="smooth-scroll" target="_blank">Free Demo</a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="about" style="background-image: url('assets/img/about_bg.png')";>
+                    <div class="section-content container">
+                        <div class="row text-center text-lg-left">
+                            <div class="col-12 col-lg-6 mb-12 mb-lg-0 d-flex align-items-center" style="color:#fbc7d4">
+                                <div class="pr-0 pr-lg-10">
+                                    <h1 class="mb-0">i.Team</h1>
+                                    <div class="fs-5 text-muted">Do More.Be More.</div>
+                                    <p class="mt-8 mb-11" style="color:#fbc7d4">
+                                        i.Team is a newly established IT solution company that aims to provide cutting-edge Point-of-Sale (POS) systems for cargo forwarding companies. With a focus on innovation and customer satisfaction, i.team is dedicated to helping cargo forwarding companies streamline their operations and improve their bottom line.
+                                    </p>
+                                    <p class="mt-8 mb-11" style="color:#fbc7d4">
+                                        Our team of experts has years of experience in the IT industry and is well-equipped to provide a comprehensive solution that meets the unique needs of cargo forwarding companies. Our POS system is designed to be user-friendly, efficient, and secure, and integrates all aspects of a cargo forwarding business, from cargo tracking and billing to customer management and reporting.
+                                    </p>
+                                    <p class="mt-8 mb-11"style="color:#fbc7d4">
+                                        At i.Team, we understand the importance of staying ahead of the curve and are constantly working to enhance our product and provide the latest technology to our clients. We are dedicated to providing exceptional customer service and support, and our team of experts is always available to answer any questions and provide assistance with setting up and using our POS system.
+                                    </p>
+                                    <p class="mt-8 mb-11"style="color:#fbc7d4">
+                                        If you are a cargo forwarding company looking for a reliable and innovative IT solution, look no further than i.team. Contact us today to learn more about how we can help you improve your operations and drive success.
+                                    </p>
+
+                                    <a href="#" class="btn btn-lg" id="btnColor">Get a free consultation</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img src="assets/img/logistics_management_software.png" class="img-fluid mb-12" alt="welcome image">
+                                <img src="assets/img/freight-forwarding-software-trends.png" class="img-fluid" alt="welcome image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+</body>
+</html>

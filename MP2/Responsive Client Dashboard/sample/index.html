@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Client Dashboard</title>
+
+   <!-- iconscout cdn path -->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <!-- CSS File Link -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="try.css">
+</head>
+<body>
+   <div class="sidebar" id="sidebar">
+      <div class="logo">
+         <h2>
+            <i class="uil uil-apple-alt"></i>
+            Iphone
+         </h2>
+      </div>
+
+      <div class="sidebar-menu">
+         <ul>
+            <li>
+               <i class="uil uil-dashboard"></i>
+               <span>Dashboard</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>History</span>
+            </li>
+            <li>
+               <i class="uil uil-chart-bar"></i>
+               <span>Transaction</span>
+            </li>
+            <li>
+               <i class="uil uil-calendar-alt"></i>
+               <span>Order/Payment</span>
+            </li>
+            <li>
+               <i class="uil uil-shopping-bag"></i>
+               <span>Summary</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>Form</span>
+            </li>
+            <li>
+               <i class="uil uil-user-circle"></i>
+               <span>Account</span>
+            </li>
+            <li>
+               <i class="uil uil-signin"></i>
+               <span>Logout</span>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="main-content" id="main-content">
+      <header class="flex">
+         <h2>
+            <i class="uil uil-bars" id="menu-icon"></i>
+            Dashboard
+         </h2>
+
+         <div class="search-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search Here...">
+         </div>
+
+         <div class="admin-box flex" >
+            <img src="images/user.jpg" width="30px" height="30px">
+            <div>
+               <h4>Jiggs Duterte</h4>
+               <small>Admin</small>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="cards">
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (MONTHLY)</span>
+                  <h2>$40,000</h2>
+               </div>
+               <i class="uil uil-calender"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (ANNUAL)</span>
+                  <h2>$215,000</h2>
+               </div>
+               <i class="uil uil-dollar-sign-alt"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>Weekly Sales</span>
+                  <h2>$47k</h2>
+               </div>
+               <i class="uil uil-chart-bar"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>PENDING REQUESTS</span>
+                  <h2>18</h2>
+               </div>
+               <i class="uil uil-comments"></i>
+            </div>
+         </div>
+
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Recent Orders</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>User</th>
+								<th>Date Order</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="Images/user.jpg" style="width: 30px;">
+									<p>Jiggs Duterte</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status completed">Completed</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/user.jpg" style="width: 30px;">
+									<p>Jiggs Duterte</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/user.jpg" style="width: 30px;">
+									<p>Jiggs Duterte</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status process">Process</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/user.jpg" style="width: 30px;">
+									<p>Jiggs Duterte</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="Images/user.jpg" style="width: 30px;">
+									<p>Jiggs Duterte</p>
+								</td>
+								<td>01-10-2021</td>
+								<td><span class="status completed">Completed</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<h3>Todos</h3>
+						<i class='bx bx-plus' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<ul class="todo-list">
+						<li class="completed">
+							<p>Todo List</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="completed">
+							<p>Todo List</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="not-completed">
+							<p>Todo List</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="completed">
+							<p>Todo List</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+						<li class="not-completed">
+							<p>Todo List</p>
+							<i class='bx bx-dots-vertical-rounded' ></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+      </main>
+   </div>
+
+   <script>
+      let sideBar = document.getElementById('sidebar');
+      let menuIcon = document.getElementById('menu-icon');
+      let mainContent = document.getElementById('main-content');
+
+      menuIcon.onclick = () => {
+         sideBar.classList.toggle('toggleMenu');
+         mainContent.classList.toggle('toggleContent');
+      }
+   </script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Summary</title>
+
+   <!-- iconscout cdn path -->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <!-- CSS File Link -->
+   <link rel="stylesheet" href="style.css">
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+   <div class="sidebar" id="sidebar">
+      <div class="logo">
+         <h2>
+            <i class="uil uil-apple-alt"></i>
+            Iphone
+         </h2>
+      </div>
+
+      <div class="sidebar-menu">
+         <ul>
+            <li>
+               <i class="uil uil-dashboard"></i>
+               <span>Dashboard</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>History</span>
+            </li>
+            <li>
+               <i class="uil uil-chart-bar"></i>
+               <span>Transaction</span>
+            </li>
+            <li>
+               <i class="uil uil-calendar-alt"></i>
+               <span>Order/Payment</span>
+            </li>
+            <li>
+               <i class="uil uil-shopping-bag"></i>
+               <span>Summary</span>
+            </li>
+            <li>
+               <i class="uil uil-clipboard-notes"></i>
+               <span>Form</span>
+            </li>
+            <li>
+               <i class="uil uil-user-circle"></i>
+               <span>Account</span>
+            </li>
+            <li>
+               <i class="uil uil-signin"></i>
+               <span>Logout</span>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="main-content" id="main-content">
+      <header class="flex">
+         <h2>
+            <i class="uil uil-bars" id="menu-icon"></i>
+            Summary
+         </h2>
+
+         <div class="search-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search Here...">
+         </div>
+
+         <div class="admin-box flex" >
+            <img src="images/user.jpg" width="30px" height="30px">
+            <div>
+               <h4>Jiggs Duterte</h4>
+               <small>Admin</small>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="cards">
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (MONTHLY)</span>
+                  <h2>$40,000</h2>
+               </div>
+               <i class="uil uil-calender"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>EARNINGS (ANNUAL)</span>
+                  <h2>$215,000</h2>
+               </div>
+               <i class="uil uil-dollar-sign-alt"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>Weekly Sales</span>
+                  <h2>$47k</h2>
+               </div>
+               <i class="uil uil-chart-bar"></i>
+            </div>
+            <div class="single-card">
+               <div>
+                  <span>PENDING REQUESTS</span>
+                  <h2>18</h2>
+               </div>
+               <i class="uil uil-comments"></i>
+            </div>
+         </div>
+         <div class="col-3 offset-9 mt-3">
+            <h2>Transaction #123</h2>
+         </div>
+         <div class="container bg-light mt-3">
+            <div class="row">
+                
+                <div class="col-4">
+                    <h3>Shipping Details</h3>
+                    <div class="container-fluid">
+                        <table class="table table-bordered border-dark">
+                            <!-- <thead>
+                                <tr>
+                                 <th>S.No</th>
+                                 <th>Name</th>
+                                 <th>Age</th>
+                                 <th>Marks%</th>
+                                 <th>Status</th>
+                                </tr>
+                            </thead> -->
+                            <tbody>
+                                <tr>
+                                    <td class="table-secondary" data-label="RefNumber">Status</td>
+                                    <td data-label="Name">Dinesh</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-secondary" data-label="RefNumber">Air/Sea</td>
+                                    <td data-label="Name">Dinesh</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary" data-label="RefNumber">Shipper Reference Number</td>
+                                        <td data-label="Name">Dinesh</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary"  data-label="Carier">Carier</td>
+                                        <td data-label="Name">Kamal</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary"  data-label="PortOrigin">Port of Origin</td>
+                                        <td data-label="Name">Neha</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary"  data-label="PortDestination">Port Destination</td>
+                                        <td data-label="Name">Priya</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary"  data-label="ShipperName">Consignor/Shipper Name</td>
+                                        <td data-label="Name">Priya</td>
+                                </tr>
+                                <tr>
+                                        <td class="table-secondary"  data-label="Shipper Address">Consignor/Shipper Address</td>
+                                        <td data-label="Name">Priya</td>
+                                </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+
+                
+
+                </div>
+                <div class="col-4">
+                    <h3>Order</h3>
+                  <!-- accordion start -->
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Item 1 
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <div class="input-group">
+                             <div class="input-group-text" style="width: 200px;">Item Description</div>
+                            <div class="input-group-text form-control"></div>
+                           </div>
+                           <div class="input-group">
+                             <div class="input-group-text" style="width: 200px;">Quantity</div>
+                            <div class="input-group-text form-control"></div>
+                           </div>
+                           <div class="input-group">
+                             <div class="input-group-text" style="width: 200px;">Unit Price</div>
+                            <div class="input-group-text form-control"></div>
+                           </div>
+                           <div class="input-group">
+                             <div class="input-group-text" style="width: 200px;">Weight</div>
+                            <div class="input-group-text form-control"></div>
+                           </div>
+                           <div class="input-group">
+                             <span class="input-group-text" id="basic-addon3" style="width: 200px;">Amount</span>
+                             <div class="input-group-text form-control"></div>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3 mb-2">
+                       <div class="col-6 offset-6">
+                           <div class="input-group">
+                             <div class="input-group-text ml-5">Total</div>
+                             <div class="input-group-text form-control" ></div>
+                           </div>
+                       </div>
+                    </div>
+
+                 </div>
+                  <!-- accordion end -->
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+         </div>
+
+
+      </main>
+   </div>
+
+   <script>
+      let sideBar = document.getElementById('sidebar');
+      let menuIcon = document.getElementById('menu-icon');
+      let mainContent = document.getElementById('main-content');
+
+      menuIcon.onclick = () => {
+         sideBar.classList.toggle('toggleMenu');
+         mainContent.classList.toggle('toggleContent');
+      }
+   </script>
+</body>
+</html>
